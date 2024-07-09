@@ -2,8 +2,8 @@ import unittest
 from unittest.mock import patch, MagicMock
 from uuid import uuid4, UUID
 from pydantic import ValidationError
-from BookingModel import Booking
-from Bookings import *
+from Booking.BookingModel import Booking
+from Booking.Bookings import *
 
 
 # Assuming the necessary imports and class definitions are available
