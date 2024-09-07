@@ -3,7 +3,6 @@ from fastapi.security import OAuth2PasswordRequestForm
 from Booking.Bookings import *
 from Auth.AuthFunc import *
 from fastapi.middleware.cors import CORSMiddleware
-
 from uuid import UUID
 from Models.BookingModel import Booking
 from Models.UserModel import UserModel
